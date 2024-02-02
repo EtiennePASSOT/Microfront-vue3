@@ -6,6 +6,6 @@ async function initApp(el) {
   app.mount(el)
 }
 
-window.apps = Object.assign(window.apps || {}, {
+window.apps = {
   microApp: initApp
-})
+}

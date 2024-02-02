@@ -6,13 +6,6 @@ import { viteStaticCopy } from "vite-plugin-static-copy";
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  build: {
-    manifest: true,
-    minify: false,
-    rollupOptions: {
-      input: "src/main.js",
-    },
-  },
   plugins: [
     vue(),
     viteStaticCopy({

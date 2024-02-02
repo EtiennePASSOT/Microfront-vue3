@@ -27,7 +27,7 @@ function loadApp() {
 onMounted(async () => {
   const manifest = await loadManifest();
   loadScript(manifest);
-  loadApp(manifest);
+  loadApp();
 });
 </script>
 
